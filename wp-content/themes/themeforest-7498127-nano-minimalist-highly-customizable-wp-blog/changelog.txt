@@ -1,0 +1,10 @@
+Nano
+
+Designed and coded by Bluthemes
+
+Web: http://www.bluthemes.com
+Email: bluth@bluth.is
+
+--- CHANGELOG ---
+v1.0 (16.04.2014)
+	- Initial release
