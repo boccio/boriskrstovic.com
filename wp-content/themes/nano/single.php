@@ -15,16 +15,19 @@
 
 
 	$image_comment_class = bl_utilities::get_option('bl_image_comments') ? 'image-comment-on' : ''; ?>
+
+	<!-- The Title -->
+	<h1 class="meta-title">
+		<?php the_title(); ?>
+	</h1>
+
 	<div id="content" class="<?php echo $image_comment_class.$layout_class; ?> " role="main"> <?php 
 		if ( have_posts() ){
 	 		while ( have_posts() ) : the_post();  ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<div class="entry-container">
 						<div class="entry-title">
-							<!-- The Title -->
-							<h1 class="meta-title">
-								<?php the_title(); ?>
-							</h1><?php
+							<?php
 							// we need to display this below the image if it's a link
 							if(get_post_format() != 'link'){
 								get_template_part( 'inc/meta-info' );

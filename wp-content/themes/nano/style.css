@@ -2480,8 +2480,10 @@ License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
 
 .entry-container{
   position: relative;
-  padding: 30px;
   background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #EEEEEE;
 }
 .entry-container.right_side .entry-content{
   border-right: 1px solid #EEEEEE; 
@@ -2545,12 +2547,13 @@ License URI: http://themeforest.net/wiki/support/legal-terms/licensing-terms/
   	margin: 0;
   	text-align: center;
   	line-height:100%;
-  	margin-bottom: 5px;
-  	padding-bottom: 15px;
+  	margin-bottom: 25px;
+  	margin-top: 40px;
+  	padding-bottom: 20px;
   	width: 100%;
   	position: relative;
 	display: block;
-	font-size: 56px;
+	font-size: 68px;
 	font-weight: 400;
 }
 .meta-title a{
